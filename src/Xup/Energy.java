@@ -11,5 +11,13 @@ public class Energy extends Physics {
     {
         return mass * gravity * height;
     }
+    public float Force(float mass)
+    {
+        return mass * gravity;
+    }
+    public float Work(float Force,float Displacement)
+    {
+        return Force * Displacement;
+    }
   
 }
